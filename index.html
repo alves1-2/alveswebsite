@@ -1,0 +1,114 @@
+ 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website Alves</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css? family=kaushan+script|poppins$display=swap" rel="stylesheet">
+<meta name="viewport" content="width =device-width, initial scale=1">
+</head>
+<body>
+    <section id="Alves">
+        <img src="iimage.png" width="100">
+       <p>directed by <i>alves</i></p>
+        <div class="alves-text">
+            <h1>alves studio</h1>
+            <p>This is my first Website and I am alves k</p>
+        <div class="alves-btn">
+            <a href="#"><span></span>find out</a>
+            <a href="#"><span></span>read more</a>
+        </div>
+        </div>
+    </section>
+<div id="sideNav">
+    <nav>
+        <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT ME</a></li>
+        <li><a href="#">SERVICES</a></li>
+        <li><a href="#">ADDRESS</a></li>
+        <li><a href="#">CONTACT US</a></li>
+    </ul>
+</nav>  
+</div>
+ <div id="manuBtn">
+    <img src="menu.png" id="menu">
+ </div>
+  <section id="about-menu">
+<div class="title-text">
+<p>ABOUT ME</p>
+<h1>why you choose us</h1>
+</div>
+<div class="about-box">
+    <div class="about-menu">
+       <h1>Experianced staff</h1> 
+       <div class="about-menu-desc">
+        <div class="about-icon">
+            <i class="fa fa-shield"></i>
+        </div>
+        <div class="about-text">
+            <p>this is the part that i will write somethings that i want after developing this!</p>
+        </div>
+       </div>
+       <h1>pre booking online</h1> 
+       <div class="about-menu-desc">
+        <div class="about-icon">
+            <i class="fa fa-check-square-o"></i>
+        </div>
+        <div class="about-text">
+            <p>this is the part that i will write somethings that i want after developing this!</p>
+        </div>
+       </div>
+       <h1>affordable cost</h1> 
+       <div class="about-menu-desc">
+        <div class="about-icon">
+            <i class="fa fa-inr"></i>
+        </div>
+        <div class="about-text">
+            <p>this is the part that i will write somethings that i want after developing this!</p>
+        </div>
+       </div>
+    </div>
+    <div class="about-menu-img">
+       <img src="alves.jpg" width="70%">
+</div>
+  </section>
+ <section id="service">
+ <div class="title-text">
+<p>SERVICES</p>
+<h1>we provide better</h1>
+ </div>
+ <div class="service-box">
+    <div class="single-service"></div>
+ <div class="single-service"></div>
+ <div class="single-service"></div>
+ <div class="single-service"></div>
+ </div>
+ 
+ </section>
+
+
+
+
+
+
+ <script>
+    var manuBtn = document.getElementById("manuBtn")
+    var sideNav= document.getElementById("sideNav")
+    var menu= document.getElementById("menu")
+    sideNav.style.right = "-250px";
+    manuBtn.onclick = function(){
+        if(sideNav.style.right == "-250px"){
+            sideNav.style.right  ="0";
+            menu.src="close.png";
+        }
+        else{
+            sideNav.style.right = "-250px";
+              menu.src="menu.png";
+        }
+    }
+ </script>
+ 
+</body> 
+</html>
